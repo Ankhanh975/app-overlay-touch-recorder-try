@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Overlay Touch Recorder</string>
+    <string name="accessibility_service_description">FPS Overlay Service - Displays FPS counter when in landscape or fullscreen mode</string>
+    <string name="fps_overlay_text">FPS: %d</string>
+    <string name="enable_accessibility_service">Enable Accessibility Service</string>
+    <string name="grant_overlay_permission">Grant Overlay Permission</string>
+    <string name="service_running">FPS Overlay Service is running</string>
+    <string name="service_stopped">FPS Overlay Service stopped</string>
+</resources>

@@ -6,11 +6,11 @@ plugins {
 
 // settings required for android plugin
 android {
-    namespace 'com.name.myapp' //directory of java class files
+    namespace 'com.appoverlaytouchrecorder' //directory of java class files
 
     compileSdkVersion 34 //compile app for this version of API
     defaultConfig {
-        applicationId 'com.name.myapp' //set id for app
+        applicationId 'com.appoverlaytouchrecorder' //set id for app
         minSdkVersion 21 //minimum API this app supports
         targetSdkVersion 34 //compile for this API
         versionCode 1
@@ -45,6 +45,10 @@ dependencies {
     implementation 'androidx.compose.material:material'
     implementation 'androidx.compose.ui:ui-tooling-preview'
     implementation 'androidx.activity:activity-compose:1.7.2'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0'
+    implementation 'androidx.savedstate:savedstate-ktx:1.2.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 }

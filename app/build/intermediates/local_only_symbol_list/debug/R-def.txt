@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+string accessibility_service_description
+string app_name
+string enable_accessibility_service
+string fps_overlay_text
+string grant_overlay_permission
+string service_running
+string service_stopped
+xml accessibility_service_config

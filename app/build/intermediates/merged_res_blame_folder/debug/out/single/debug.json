@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.appoverlaytouchrecorder.app-merged_res-50:/xml_accessibility_service_config.xml.flat",
+        "source": "com.appoverlaytouchrecorder.app-main-52:/xml/accessibility_service_config.xml"
+    }
+]
